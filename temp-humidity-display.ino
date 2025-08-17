@@ -20,7 +20,7 @@ void setup() {
   // Initialize LCD
   Wire.begin(LCD_SDA, LCD_SCL);
   lcd.init();
-  lcd.noBacklight();
+  lcd.backlight();
   lcd.clear();
   lcd.print("Initializing...");
 
