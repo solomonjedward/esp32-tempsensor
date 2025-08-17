@@ -18,8 +18,8 @@ LiquidCrystal_I2C lcd(0x27, 20, 4);
 Adafruit_SHT31 sht31;
 
 // WiFi and NTP
-const char* ssid = "ASIANET-0D9C05";
-const char* password = "SoloAmmu@3020";
+const char* ssid = "wifi-user";
+const char* password = "password";
 WiFiUDP ntpUDP;
 NTPClient timeClient(ntpUDP, "pool.ntp.org", 19800);
 
